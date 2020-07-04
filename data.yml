@@ -1,0 +1,10 @@
+---
+resources:
+  - name: "Bridgetown Website"
+    description: "Official Bridgetown website"
+    type: Useful Links
+    url: "https://www.bridgetownrb.com"
+  - name: "Bridgetown GitHub Repo"
+    description: "Bridgetown repository"
+    type: Useful Links
+    url: "https://github.com/bridgetownrb/bridgetown"

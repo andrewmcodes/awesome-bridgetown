@@ -1,0 +1,39 @@
+name: Update Readme
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'data.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    if: "!contains(github.event.head_commit.message, '[nodoc]')"
+    steps:
+    - uses: actions/checkout@master
+    - name: Set up Ruby 2.7
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.7.1
+    - uses: actions/cache@master
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gem-
+    - name: Create local changes
+      run: |
+        gem install awesome_list_generator --pre
+        awesome_list_generator generate README.md --data data.yml --template .github/config/template.liquid
+    - name: Commit files
+      run: |
+        git config --local user.email "andrewmcodes@protonmail.com"
+        git config --local user.name "Andrew Mason"
+        git commit -am "[nodoc] update README"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}

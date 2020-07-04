@@ -1,0 +1,21 @@
+name: Yamllint
+
+on:
+  pull_request:
+    branches:
+      - '*'
+  push:
+    branches:
+      - master
+
+jobs:
+  yamllint:
+    name: Yamllint Check Action
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: yamllint
+      uses: ibiqlik/action-yamllint@v1
+      with:
+        file_or_dir: data.yml
+        config_file: .github/config/.yamllint.yml
