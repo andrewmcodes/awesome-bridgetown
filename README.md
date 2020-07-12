@@ -8,10 +8,15 @@ Bridgetown is a Webpack-aware, Ruby-powered static site generator for the modern
 
 ## Contents
 
+- [Podcasts](#podcasts)
 - [Useful_links](#useful_links)
+
+## Podcasts
+
+- [RR 78: Bridgetown Ruby with Jared White](https://remoteruby.transistor.fm/78) - Remote Ruby podcast episode with Jared White, the author of Bridgetown
 
 ## Useful_links
 
+- [Bridgetown Automation's](https://github.com/bridgetownrb/automations) - Automation scripts which act on new or existing sites to perform tasks
 - [Bridgetown GitHub Repo](https://github.com/bridgetownrb/bridgetown) - Bridgetown repository
 - [Bridgetown Website](https://www.bridgetownrb.com) - Official Bridgetown website
-
