@@ -1,12 +1,27 @@
-# WIP
+# Contribution Guidelines
 
-This document is dynamically generated from the contents of `data.yml` with the help of Ruby and Liquid.
-Checkout the contents of the generator folder to see how.
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 
-You will need to run `gem install liquid` if you don't already have it installed.
+---
 
-To generate the README locally, run:
+Ensure your pull request adheres to the following guidelines:
 
-```sh
-awesome_list_generator generate README.md --data data.yml --template .github/config/template.liquid
-```
+- Suggested packages should be tested and documented.
+- Make an individual pull request for each suggestion.
+- Use the following format: `[package](link) - Description.`
+- Additions should be added to the bottom of the relevant category.
+- Link to the GitHub repo, not NPM, RubyGems, or it's website.
+- Keep descriptions short and simple, but descriptive.
+- Don't mention `Bridgetown` in the description as it's implied - unless it is an official Bridgetown plugin.
+- Start the description with a capital and end with a full stop/period.
+- Don't start the description with `A` or `An`.
+- Check your spelling and grammar.
+- Make sure your text editor is set to remove trailing whitespace.
+- The pull request should have a useful title and include a link to the package and why it should be included.
+- New categories or improvements to the existing categorization are welcome, but should be done in a separate pull request.
+
+Thank you for your suggestion!
+
+### Updating your PR
+
+A lot of times, making a PR adhere to the standards above can be difficult. If the maintainers notice anything that we'd like changed, we'll ask you to edit your PR before we merge it. If you're not sure how to do that, [here is a guide](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md) on the different ways you can update your PR so that we can merge it.
