@@ -57,6 +57,7 @@ Bridgetown is a Webpack-aware, Ruby-powered static site generator for the modern
 ### Starters
 
 - [bridgetown-netlify-cms](https://github.com/andrewmcodes/bridgetown-netlify-cms-starter) - A template that integrates with Netlify CMS.
+- [example-bridgetown-preact](https://github.com/jaredcwhite/example-bridgetown-preact) - An example site and automation that showcases integration of Preact and React Hook Form
 
 ### Themes
 
