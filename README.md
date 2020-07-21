@@ -74,6 +74,7 @@ Bridgetown is a Webpack-aware, Ruby-powered static site generator for the modern
 - [Creating a blog with Bridgetown and Netlify CMS](https://dev.to/andrewmcodes/creating-a-blog-with-bridgetown-and-netlify-cms-1d1a)
 - [Build and deploy a static site with Ruby, Bridgetown, TailwindCSS, and Netlify](https://dev.to/andrewmcodes/build-and-deploy-a-static-site-with-ruby-bridgetown-tailwindcss-and-netlify-3934)
 - [4 New Tools to Watch in the Jamstack Ecosystem](https://dev.to/stackbit/4-new-tools-to-watch-in-the-jamstack-ecosystem-1335)
+- [How to inline SVG files in your Bridgetown site](https://dev.to/andrewmcodes/how-to-inline-svg-files-in-your-bridgetown-site-45ag)
 
 ### Podcasts
 
