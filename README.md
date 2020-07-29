@@ -1,6 +1,7 @@
-![bridgetown_logo](/assets/bridgetown_logo.svg)
+![logo](/assets/logo.png)
 
 <!-- omit in toc -->
+
 # Awesome Bridgetown
 
 > A curated list of awesome things related to Bridgetown
@@ -8,6 +9,7 @@
 Bridgetown is a Webpack-aware, Ruby-powered static site generator for the modern Jamstack era. Bridgetown takes your content and frontend assets, renders Markdown and Liquid templates, and exports a complete website ready to be served by Jamstack services like Netlify or traditional web servers like Nginx.
 
 <!-- omit in toc -->
+
 ## Contents
 
 - [Official Resources](#official-resources)
