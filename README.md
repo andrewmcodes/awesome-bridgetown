@@ -68,6 +68,7 @@ Bridgetown is a Webpack-aware, Ruby-powered static site generator for the modern
 ### Plugins
 
 - [bridgetown-inline-svg](https://github.com/andrewmcodes/bridgetown-inline-svg) - SVG optimizer and inliner.
+- [bridgetown-plausible-tag](https://github.com/andrewmcodes/bridgetown-plausible-tag) - A Bridgetown plugin to integrate Plausible analytics.
 
 ## Content
 
