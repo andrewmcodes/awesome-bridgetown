@@ -53,7 +53,7 @@ Bridgetown is a Webpack-aware, Ruby-powered static site generator for the modern
 
 - [bridgetown-plugin-tailwindcss](https://github.com/ParamagicDev/bridgetown-plugin-tailwindcss) - An automation for adding TailwindCSS.
 - [bridgetown-automation-cypress](https://github.com/ParamagicDev/bridgetown-automation-cypress) - An automation for adding Cypress.
-- [bridgetown-automation-turbolinks](https://github.com/ParamagicDev/bridgetown-automation-turbolinks) - An automation for adding Turbolinks.
+- [bridgetown-automation-turbolinks](https://github.com/ParamagicDev/bridgetown-automation-turbolinks) - An automation for adding Turbolinks - OUTDATED & ARCHIVED. 
 - [bridgetown-automation-docker-compose](https://github.com/ParamagicDev/bridgetown-automation-docker-compose) - An automation for adding Docker Compose.
 
 ### Starters
