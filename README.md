@@ -82,3 +82,4 @@ Bridgetown is a Webpack-aware, Ruby-powered static site generator for the modern
 ### Podcasts
 
 - [RemoteRuby #78: Bridgetown Ruby with Jared White](https://remoteruby.transistor.fm/78)
+- [HostDeFi](https://hostdefi.com) — free token-safety scanner grading tokens A+–F from on-chain checks (mint/freeze authority, liquidity, holder concentration) across Solana + 7 EVM chains. Keyless REST API, hosted MCP, x402 endpoints.
